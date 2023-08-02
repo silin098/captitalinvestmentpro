@@ -3,8 +3,9 @@
     Contact Us
 @endsection
 @section('content')
+    <div class="container">
     @if(Session::has('success'))
-            <div class="col-6 mx-auto text-light mt-5 vh-100 text-center">
+            <div class="col-8 mx-auto text-light mt-5 vh-100 text-center">
             <h1 class="display-1 text-center"><i class="fa-solid fa-circle-check  mt-5"></i></h1>
             <h1 class="display-1">Thank you! </h1>
             <p class="text-light">{{Session::get('success')}}</p>
@@ -12,7 +13,7 @@
             </div>
 
         @else
-            <div class="col-md-6 mx-auto text-light mt-5 vh-100">
+            <div class="col-md-8 mx-auto text-light mt-5 vh-100">
 
             <form method="POST" action="{{route('contact.store')}}">
             @csrf
@@ -59,6 +60,6 @@
 
         @endif
 
-
+    </div>
 
 @endsection
