@@ -11,16 +11,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link text-secondary"  href="/">Home</a>
+                    <a class="nav-link text-light"  href="{{route('home')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="{{route('about')}}">About Us</a>
+                    <a class="nav-link text-light" href="{{route('about')}}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="{{route('contact')}}">Contact</a>
+                    <a class="nav-link text-light" href="{{route('contact')}}">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-secondary" href="{{route('career')}}">Careers</a>
+                    <a class="nav-link text-light" href="{{route('career')}}">Careers</a>
                 </li>
             </ul>
 

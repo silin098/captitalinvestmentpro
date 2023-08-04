@@ -1,10 +1,22 @@
-<hr/>
-<footer class="my-5">
+<hr class="text-secondary"/>
+<footer class="">
 
-    <div class="ms-5">
+
+    <div class="d-flex justify-content-between mx-5">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="/"> <img src="{{url('images/logo12.png')}}"  height="40px"/></a>
+                <a class="nav-link" href="/">
+                    <img src="{{url('images/logo12.png')}}"  height="40px"/>
+
+                </a>
+
+
+            </li>
+            <li class="nav-item align-self-center">
+
+             <span class="text-light">&copy; {{now()->year}} Capitalinvestmentpro, Inc</span>
+
+
             </li>
         </ul>
         <ul class="nav">

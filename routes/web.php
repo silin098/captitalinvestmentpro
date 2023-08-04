@@ -15,7 +15,7 @@ use App\Http\Controllers\ContactUsFormController;
 */
 
 
-Route::get('/',[WebController::class,'index']);
+Route::get('/',[WebController::class,'index'])->name('home');
 
 Route::get('/about',[WebController::class,'about'])->name('about');
 Route::get('/terms-and-conditions',[WebController::class,'terms'])->name('terms');

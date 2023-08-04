@@ -67,7 +67,7 @@
         <p class="py-3">Location</p>
         <ul>
             <li>95 Tak Ok, Ban Tak District, Tak, Thailand</li>
-            <li>+66 813311486</li>
+            <li>+66 612790081</li>
             <li>hr@capitalinvestmentpro.com</li>
         </ul>
         <p class="fw-bold">If you are interested in this position, send your CV to: <a href="mailto:email@example.com" class="text-white">hr@capitalinvestmentpro.com</a></p>
