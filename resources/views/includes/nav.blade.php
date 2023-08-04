@@ -26,10 +26,10 @@
 
             <ul class="navbar-nav me-end px-5">
                 <li class="nav-item">
-                    <a class="nav-link text-light"  href="https://t.me/JayK454" target="_blank" ><i class="fa-brands fa-telegram fa-xl text-primary"></i></a>
+                    <a class="nav-link text-light"  href="https://t.me/JayK454" target="_blank" ><i class="fa-brands fa-telegram fa-xl"></i></a>
                 </li>
                 <li class="nav-item me-3">
-                    <a class="nav-link text-light"  href="/wa.me/" target="_blank"><i class="fa-brands fa-whatsapp fa-xl text-success"></i></a>
+                    <a class="nav-link text-light"  href="https://wa.me/+66612790081" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
                 </li>
 
             </ul>

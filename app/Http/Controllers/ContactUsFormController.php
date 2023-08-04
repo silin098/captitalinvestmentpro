@@ -15,15 +15,25 @@ class ContactUsFormController extends Controller
 
     public function storeForm(Request $request){
         // form validation
-        $this->validate($request,[
+
+
+        $request->validate([
             'name'=>'required',
             'email'=>'required|email',
             'phone'=>'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
             'subject'=>'required',
             'message'=>'required',
+            'g-recaptcha-response' => 'required|captcha'
         ]);
 
-        Contact::create($request->all());
+        Contact::create([
+            'name'=>$request->name,
+             'email'=>$request->email,
+            'phone'=>$request->phone,
+            'subject'=>$request->subject,
+            'message'=>$request->message,
+        ]);
+
 
         Mail::send('mail',array(
             'name'=>$request->get('name'),
