@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 
-<div class="col-6 mx-auto mt-5 text-light vh-100">
+<div class="col-md-6 mx-auto mt-5 text-light vh-100">
 
     <h2 class="text-center">We're On The Lookout
         For Extraordinary Talent</h2>
@@ -13,7 +13,7 @@
     </p>
 
     <h3 class="text-center my-5 text-decoration-underline">Open Positions</h3>
-    <ol class="list-group ">
+    <ol class="list-group px-3g">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto py-2">
                 <div class="fw-bold">Customer Screening specialist</div>
