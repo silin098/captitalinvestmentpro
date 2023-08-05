@@ -26,7 +26,7 @@
                         What we believe in
                         Over the years at CaptialInvestmentPro, we've put a lot of thought into what is it what makes us who we are.
                     </h3>
-                    <div class="d-flex ">
+                    <div class="d-flex mb-4">
                         <a href="{{route('contact')}}" class="button text-decoration-none">
                             Contact Us
                         </a>
