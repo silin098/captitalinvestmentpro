@@ -1,41 +1,25 @@
-
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="/">
-            <img src="{{url('images/logo12.png')}}"  height="40"/>
-
-        </a>
-        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-light"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mb-2 mx-auto mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-light"  href="{{route('home')}}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="{{route('about')}}">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="{{route('contact')}}">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="{{route('career')}}">Careers</a>
-                </li>
-            </ul>
-
-            <ul class="navbar-nav me-end px-5">
-                <li class="nav-item">
-                    <a class="nav-link text-light"  href="https://t.me/JayK454" target="_blank" ><i class="fa-brands fa-telegram fa-xl"></i></a>
-                </li>
-                <li class="nav-item me-3">
-                    <a class="nav-link text-light"  href="https://wa.me/+66612790081" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                </li>
-
-            </ul>
-
+<div class="container-fluid">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+        <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ms-md-5">
+               <img src="{{url('/images/logo12.png')}}" height="40"/>
+            </a>
         </div>
-    </div>
-</nav>
-<hr class="text-secondary p-0 m-0"/>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="{{route('home')}}" class="nav-link px-2 link-light">Home</a></li>
+            <li><a href="{{route('about')}}" class="nav-link px-2 link-light">About</a></li>
+            <li><a href="{{route('contact')}}" class="nav-link px-2 link-light">Contact</a></li>
+            <li><a href="{{route('career')}}" class="nav-link px-2 link-light ">Careers</a></li>
+
+        </ul>
+
+        <div class="col-md-3 text-end">
+            <a  class="text-light me-2 me-md-2" href="https://t.me/JayK454"><i class="fa-brands fa-telegram fa-2xl"></i></a>
+            <a  class="text-light me-md-2" href="https://wa.me/+66612790081" ><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+        </div>
+    </header>
+    <hr>
+</div>
+
 

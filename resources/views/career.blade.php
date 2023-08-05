@@ -32,6 +32,15 @@
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
+                <div class="fw-bold">Business Development and Promotion
+
+                </div>
+
+            </div>
+            <a class="btn btn-dark align-self-center" href="{{route('business-development')}}">Apply</a>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
                 <div class="fw-bold">Administrator
 
                 </div>

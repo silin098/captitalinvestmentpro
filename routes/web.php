@@ -28,7 +28,7 @@ Route::get('/customer-screening-specialist-position',[WebController::class,'cust
 Route::get('/human-resource-position',[WebController::class,'humanResource'])->name('human-resource');
 Route::get('/admin-position',[WebController::class,'admin'])->name('admin');
 Route::get('/it-technician-position',[WebController::class,'technician'])->name('it-technician');
-
+Route::get('business-development',[WebController::class,'developBusiness'])->name('business-development');
 
 // contact form routes
 Route::get('/contact',[ContactUsFormController::class,'createForm'])->name('contact');

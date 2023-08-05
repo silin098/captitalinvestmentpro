@@ -47,6 +47,10 @@ class WebController extends Controller
         return view('it-technician');
     }
 
+    public function developBusiness(){
+        return view('business-development');
+}
+
 
 
 }

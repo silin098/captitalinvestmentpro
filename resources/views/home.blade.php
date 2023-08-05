@@ -19,7 +19,7 @@
         <div class="text-center text-light para">
             <h2  class="mb-3">Trusted WorldWide</h2>
             <p class="lead">Discover why millions of investors from over
-                the countries joined <span class="my-underline">Capitalinvestmenpro</span></p>
+                the countries joined <span class="my-underline">Capitalinvestmentpro</span></p>
 
         </div>
 

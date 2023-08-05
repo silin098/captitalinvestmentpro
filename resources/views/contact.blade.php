@@ -13,7 +13,7 @@
             </div>
 
         @else
-            <div class="col-md-8 mx-auto text-light mt-5 vh-100">
+            <div class="col-md-8 mx-auto text-light vh-100">
 
             <form method="POST" action="{{route('contact.store')}}">
             @csrf
