@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 
-    <div class="col-md-7 mx-auto text-light my-5">
+    <div class="col-md-7 mx-auto text-light my-5 px-3">
         <h3 class="my-3">Business development</h3>
 
 

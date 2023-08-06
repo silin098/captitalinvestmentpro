@@ -13,7 +13,7 @@
             </div>
 
         @else
-            <div class="col-md-8 mx-auto text-light vh-100 mt-5">
+            <div class="col-sm-12 col-md-8 mx-auto text-light  mt-5">
 
             <form method="POST" action="{{route('contact.store')}}">
             @csrf
@@ -52,7 +52,8 @@
             <span class="text-danger">{{$message}}</span>
             @enderror
             </div>
-                <div class="my-3">
+
+                <div class="mb-3">
                     {!! NoCaptcha::display() !!}
                     @error('g-recaptcha-response')
                     <span class="text-danger">{{$message}}</span>

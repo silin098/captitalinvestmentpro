@@ -13,7 +13,8 @@
     </p>
 
     <h3 class="text-center my-5 text-decoration-underline">Open Positions</h3>
-    <ol class="list-group px-3g">
+    <div class="row">
+    <ol class="list-group px-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto py-2">
                 <div class="fw-bold">Customer Screening specialist</div>
@@ -58,6 +59,7 @@
             <a class="btn btn-dark align-self-center" href="{{route('it-technician')}}">Apply</a>
         </li>
     </ol>
+    </div>
    </div>
 
 
