@@ -6,14 +6,14 @@
     <div class="container">
     @if(Session::has('success'))
             <div class="col-8 mx-auto text-light mt-5 vh-100 text-center">
-            <h1 class="display-1 text-center"><i class="fa-solid fa-circle-check  mt-5"></i></h1>
+            <h1 class="display-1 text-center"><i class="fa-solid fa-circle-check mt-5"></i></h1>
             <h1 class="display-1">Thank you! </h1>
             <p class="text-light">{{Session::get('success')}}</p>
             <a href="/" class="btn btn-light">Back To Home</a>
             </div>
 
         @else
-            <div class="col-md-8 mx-auto text-light vh-100">
+            <div class="col-md-8 mx-auto text-light vh-100 mt-5">
 
             <form method="POST" action="{{route('contact.store')}}">
             @csrf
@@ -33,7 +33,7 @@
             </div>
             <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-            <input type="text" class="form-control form-control-lg" name="phone" id="exampleFormControlInput1" placeholder="Enter Your Phone Number with country code" >
+            <input type="text" class="form-control form-control-lg" name="phone" id="exampleFormControlInput1" placeholder="Enter Your Phone Number" >
             @error('phone')
             <span class="text-danger">{{$message}}</span>
             @enderror

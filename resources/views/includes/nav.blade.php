@@ -14,7 +14,7 @@
 
         </ul>
 
-        <div class="col-md-3 text-end">
+        <div class="col-md-3 text-end me-3">
             <a  class="text-light me-2 me-md-2" href="https://t.me/JayK454"><i class="fa-brands fa-telegram fa-2xl"></i></a>
             <a  class="text-light me-md-2" href="https://wa.me/+66612790081" ><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
         </div>
