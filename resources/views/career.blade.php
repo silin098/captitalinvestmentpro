@@ -8,12 +8,12 @@
 
     <h2 class="text-center">We're On The Lookout
         For Extraordinary Talent</h2>
-    <p class="lead mt-5 text-center">
+    <p class="lead mt-3 text-center">
         If you're motivated, intelligent, passionate and looking for a meaningful work environment, captialinvestmentpro may just be the last place you send your resume to
     </p>
 
-    <h3 class="text-center my-5 text-decoration-underline">Open Positions</h3>
-    <div class="row">
+    <h3 class="text-center my-3 text-decoration-underline">Open Positions</h3>
+
     <ol class="list-group px-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto py-2">
@@ -60,7 +60,7 @@
         </li>
     </ol>
     </div>
-   </div>
+
 
 
 @endsection

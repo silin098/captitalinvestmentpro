@@ -13,7 +13,6 @@
         <li class="ms-3"><a class="text-secondary" href="{{route('contact')}}">Contact</a></li>
         <li class="ms-3"><a class="text-secondary" href="{{route('career')}}">Careers</a></li>
         <li class="ms-3"><a class="text-secondary" href="{{route('policy')}}">Policy</a></li>
-        <li class="ms-3"><a class="text-secondary" href="{{route('career')}}">Careers</a></li>
 
     </ul>
 </footer>
