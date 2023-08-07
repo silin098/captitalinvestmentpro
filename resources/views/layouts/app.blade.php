@@ -2,12 +2,14 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
+        <meta name="decription" content="Welcome to capitalinvestmentpro,the premier cryptocurrency broker company that empowers individuals and businesses to navigate the exciting world of digital currencies with ease and peace of mind"/>
+        <meta name="keywords" content="Capitalinvestment pro, capitalinvestmentpro.com,">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" sizes="180x180" href="{{url("apple-touch-icon.png")}}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{url('/favicon-32x32.png')}}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{url('/favicon-16x16.png')}}">
         <link rel="manifest" href="{{url('/site.webmanifest')}}">
-        <title> @yield('title') - Capital Investment Pro </title>
+        <title> Capital Investment Pro - @yield('title')  </title>
 
 
         <!-- Fonts -->
