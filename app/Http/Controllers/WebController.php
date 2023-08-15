@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use AmrShawky\LaravelCurrency\Facade\Currency;
 class WebController extends Controller
 {
     public function index(){
@@ -49,7 +49,20 @@ class WebController extends Controller
 
     public function developBusiness(){
         return view('business-development');
-}
+    }
+
+    public function exchangeCrypto(Request $request){
+        $currency = Currency::convert()
+                ->from('BTC')
+                ->to('ETH')
+
+                ->get();
+
+        return dump($currency);
+
+    }
+
+
 
 
 

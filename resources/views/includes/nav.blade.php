@@ -11,6 +11,7 @@
             <li><a href="{{route('about')}}" class="nav-link px-2 link-light">About</a></li>
             <li><a href="{{route('contact')}}" class="nav-link px-2 link-light">Contact</a></li>
             <li><a href="{{route('career')}}" class="nav-link px-2 link-light ">Careers</a></li>
+            <li><a href="{{route('crypto-exchange-rate')}}" class="nav-link px-2 link-light ">Crypto</a></li>
 
         </ul>
 
