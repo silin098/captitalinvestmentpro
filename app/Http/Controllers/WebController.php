@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use AmrShawky\LaravelCurrency\Facade\Currency;
+use Illuminate\Support\Facades\Http;
 class WebController extends Controller
 {
     public function index(){
@@ -51,14 +52,13 @@ class WebController extends Controller
         return view('business-development');
     }
 
-    public function exchangeCrypto(Request $request){
-        $currency = Currency::convert()
-                ->from('BTC')
-                ->to('ETH')
+    public function exchangeCrypto(){
 
-                ->get();
 
-        return dump($currency);
+        $response = Http::get('https://newsapi.org/v2/everything?q=crypto&from=2022-07-16&sortBy=publishedAt&apiKey=8a26e4600abe4f5fa85ff5167b9e2e2f');
+        $jsonData = $response->json();
+
+        return view('crypto',['data'=>$jsonData]);
 
     }
 

@@ -237,3 +237,12 @@ a:hover {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+.card-hover {
+    background-color: #02172A;
+    transition: 0.2s;
+
+}
+.card-hover:hover {
+    cursor: pointer;
+    transform:translate(0,-5px);
+}
