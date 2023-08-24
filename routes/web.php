@@ -21,7 +21,7 @@ Route::get('/about',[WebController::class,'about'])->name('about');
 Route::get('/terms-and-conditions',[WebController::class,'terms'])->name('terms');
 Route::get('/policy',[WebController::class,'policy'])->name('policy');
 Route::get('/careers',[WebController::class,'career'])->name('career');
-Route::get('/crypto-exchange',[WebController::class,'exchangeCrypto'])->name('crypto-exchange-rate');
+Route::get('/news',[WebController::class,'exchangeCrypto'])->name('crypto-exchange-rate');
 
 
 // career routes
