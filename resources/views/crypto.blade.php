@@ -1,21 +1,21 @@
 @extends('layouts.app')
 @section('content')
-    <div class="vh-100">
-    <div class="d-flex flex-column mb-2 container">
-        <a class="border mt-5 p-3 card-hover text-decoration-none" href="/">
-            <p class="text-secondary">Updated: Sep 27, 2022 — 1 MIN READ — #queues</p>
-            <h3 class="text-white fw-bold">Removing Jobs of a Specific Type from a Laravel Queue</h3>
-            <p class="text-secondary">Hello World</p>
 
-        </a>
+    <div class="">
 
-        <a class="border my-3 p-2 card-hover text-decoration-none" href="/">
-            <p class="text-secondary">Updated: Sep 27, 2022 — 1 MIN READ — #queues</p>
-            <h3 class="text-white fw-bold">Removing Jobs of a Specific Type from a Laravel Queue</h3>
-            <p class="text-secondary">Hello World</p>
+    <div class="row justify-content-center">
+        @foreach($jsonData->hits as $blog)
 
-        </a>
 
+        <div class="col-md-5 col-sm-12 border mt-3 me-3 py-1 card-hover">
+            <a class="text-decoration-none" href="{{$blog->url}}" target="_blank">
+                <p class="text-secondary fw-bold">Updated: Sep 27, 2022 </p>
+                <h5 class="text-white fw-bold">{{$blog->title}}</h5>
+                <p class="text-secondary fw-bold text-capitalize">Author:{{$blog->author}}</p>
+
+            </a>
+        </div>
+        @endforeach
 
 
     </div>

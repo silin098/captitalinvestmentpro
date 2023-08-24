@@ -55,10 +55,11 @@ class WebController extends Controller
     public function exchangeCrypto(){
 
 
-        $response = Http::get('https://newsapi.org/v2/everything?q=crypto&from=2022-07-16&sortBy=publishedAt&apiKey=8a26e4600abe4f5fa85ff5167b9e2e2f');
-        $jsonData = $response->json();
+        $response = Http::get('http://hn.algolia.com/api/v1/search?query=crypto');
+        $jsonData = json_decode($response);
 
-        return view('crypto',['data'=>$jsonData]);
+//        return dump($jsonData);
+        return view('crypto',compact('jsonData'));
 
     }
 

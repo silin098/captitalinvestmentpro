@@ -237,8 +237,7 @@ a:hover {
 p {
     font-family: 'Montserrat', sans-serif;
 }
-.card-hover {
-    background-color: #02172A;
+.card-hover{
     transition: 0.2s;
 
 }
