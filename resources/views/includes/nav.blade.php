@@ -6,18 +6,21 @@
             </a>
         </div>
 
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5">
             <li><a href="{{route('home')}}" class="nav-link px-2 link-light">Home</a></li>
             <li><a href="{{route('about')}}" class="nav-link px-2 link-light">About</a></li>
-            <li><a href="{{route('contact')}}" class="nav-link px-2 link-light">Contact</a></li>
+          {{--  <li><a href="{{route('contact')}}" class="nav-link px-2 link-light">Contact</a></li>--}}
             <li><a href="{{route('career')}}" class="nav-link px-2 link-light ">Careers</a></li>
             <li><a href="{{route('crypto-exchange-rate')}}" class="nav-link px-2 link-light ">News</a></li>
 
         </ul>
 
         <div class="col-md-3 text-end me-3">
-            <a  class="text-light me-2 me-md-2" href="https://t.me/JayK454"><i class="fa-brands fa-telegram fa-2xl"></i></a>
-            <a  class="text-light me-md-2" href="https://wa.me/+66612790081"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+            <a class="contact" href="{{route('contact')}}">
+                Contact Us
+            </a>
+{{--            <a  class="text-light me-2 me-md-2" href="https://t.me/JayK454"><i class="fa-brands fa-telegram fa-2xl"></i></a>--}}
+{{--            <a  class="text-light me-md-2" href="https://wa.me/+66612790081"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>--}}
         </div>
     </header>
 
