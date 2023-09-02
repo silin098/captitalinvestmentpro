@@ -74,13 +74,13 @@
 </main>
 <hr class="text-secondary">
 
-<section class="text-light container ">
+<section class="text-light container">
     <div class="my-3">
     <h2 class="text-center fw-bold">How do we work?</h2>
     <p class="col-md-8 mx-auto text-center lead">We strive to create extraordinary experience, increase brand awareness, expand target audience reach and optimize overall business results</p>
     </div>
     <div class="row">
-        <div class="col-md-4 my-4">
+        <div class="col-md-4 mx-auto">
             <div class="custom-card">
                 <div class="content">
                     <div class="price">Smart Digital Marketing Strategy</div>
@@ -90,10 +90,104 @@
             </div>
 
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6 mx-auto">
             <img src="{{url('images/office.jpg')}}"  class="img-thumbnail mb-3" alt="capitialinvestmentpro_picture">
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="custom-card">
+                <div class="content">
+                    <div class="price">Best Web and App Developers</div>
+                    <div class="description">We are able to create great user experiences, intuitive interface and have ability to integrate advanced features to add significant value</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="custom-card">
+                <div class="content">
+                    <div class="price">Visualization of user-appealing designs</div>
+                    <div class="description">A user-appealing design can create a mesmerizing experience and motivate users to continue using and interacting with the product</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-4 mx-auto">
+            <div class="custom-card">
+                <div class="content">
+                    <div class="price">Quick and friendly service</div>
+                    <div class="description">Quick and friendly service also includes the ability to respond and handle complaints or problems quickly. ensuring customers feel valued</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<hr class="text-secondary">
+    <section class="container text-white">
+        <h4 class="text-center fw-bold my-3 lead">Working Environment At Capital Investment Pro</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{url('/images/office_photo.jpg')}}" class="img-thumbnail">
+                <p class="text-center">Working Office</p>
+            </div>
+            <div class="col-md-4">
+                <img src="{{url('/images/rest.jpg')}}" class="img-thumbnail">
+                <p class="text-center">Rest Room </p>
+            </div>
+            <div class="col-md-4">
+                <img src="{{url('/images/conference.jpg')}}" class="img-thumbnail">
+                <p class="text-center">Conference Room</p>
+            </div>
+        </div>
+
+    </section>
+
+<hr class="text-secondary">
+<section class="container text-white">
+    <h4 class="text-center fw-bold my-4 lead">Company Accommodation For Employee</h4>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+
+
+            <img src="{{url('/images/bedroom.jpg')}}" class="card-img">
+            <div class="card-img-overlay">
+                <div class="d-flex  align-items-end justify-content-end" style="height: 100%">
+                    <p class="card-text text-dark lead">Employee Rooms</p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="{{url('/images/bed1.jpg')}}" class="card-img">
+            <div class="card-img-overlay">
+                <div class="d-flex  align-items-end justify-content-end" style="height: 100%">
+                    <p class="card-text text-light lead">VIP Rooms</p>
+                </div>
+
+
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="{{url('/images/manager_room.jpg')}}" class="card-img">
+                <div class="card-img-overlay">
+                    <div class="d-flex  align-items-end" style="height: 100%">
+                        <p class="card-text text-light lead fw-bold">Managerial Room</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </section>
 
 @endsection
