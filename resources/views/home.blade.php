@@ -77,10 +77,10 @@
 <section class="text-light container">
     <div class="my-3">
     <h2 class="text-center fw-bold">How do we work?</h2>
-    <p class="col-md-8 mx-auto text-center lead">We strive to create extraordinary experience, increase brand awareness, expand target audience reach and optimize overall business results</p>
+    <p class="col-md-8  text-center lead mx-auto">We strive to create extraordinary experience, increase brand awareness, expand target audience reach and optimize overall business results</p>
     </div>
-    <div class="row">
-        <div class="col-md-4 mx-auto">
+    <div class="row justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center">
             <div class="custom-card">
                 <div class="content">
                     <div class="price">Smart Digital Marketing Strategy</div>
@@ -90,12 +90,12 @@
             </div>
 
         </div>
-        <div class="col-md-6 mx-auto">
+        <div class="col-md-8 mx-auto">
             <img src="{{url('images/office.jpg')}}"  class="img-thumbnail mb-3" alt="capitialinvestmentpro_picture">
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4 mx-auto">
+        <div class="col-md-4 d-flex justify-content-center">
             <div class="custom-card">
                 <div class="content">
                     <div class="price">Best Web and App Developers</div>
@@ -105,7 +105,7 @@
             </div>
 
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex justify-content-center">
             <div class="custom-card">
                 <div class="content">
                     <div class="price">Visualization of user-appealing designs</div>
@@ -115,7 +115,7 @@
             </div>
 
         </div>
-        <div class="col-md-4 mx-auto">
+        <div class="col-md-4 d-flex justify-content-center">
             <div class="custom-card">
                 <div class="content">
                     <div class="price">Quick and friendly service</div>
@@ -131,7 +131,7 @@
         <h4 class="text-center fw-bold my-3 lead">Working Environment At Capital Investment Pro</h4>
         <div class="row">
             <div class="col-md-4">
-                <img src="{{url('/images/office_photo.jpg')}}" class="img-thumbnail">
+                <img src="{{url('/images/office_photo.jpg')}}" class="img-thumbnail working-img">
                 <p class="text-center">Working Office</p>
             </div>
             <div class="col-md-4">
@@ -154,10 +154,10 @@
             <div class="card">
 
 
-            <img src="{{url('/images/bedroom.jpg')}}" class="card-img">
+            <img src="{{url('/images/bedroom.jpg')}}" class="card-img working-img">
             <div class="card-img-overlay">
-                <div class="d-flex  align-items-end justify-content-end" style="height: 100%">
-                    <p class="card-text text-dark lead">Employee Rooms</p>
+                <div class="d-flex  align-items-end justify-content-end " style="height: 100%">
+                    <p class="card-text text-light lead">Employee Rooms</p>
                 </div>
 
             </div>
@@ -189,6 +189,12 @@
     </div>
 
 </section>
+<hr class="text-secondary">
+    <section>
+        <div class="col-md-8 mx-auto">
+
+        </div>
+    </section>
 
 @endsection
 

@@ -314,7 +314,7 @@ button::after {
     align-items: center;
     justify-content: space-around;
     width: 300px;
-    padding: 20px 1px;
+    padding: 0px 1px;
     margin: 10px 0;
     text-align: center;
     position: relative;
@@ -347,6 +347,10 @@ button::after {
     margin-top: 10px;
     font-size: 25px;
     letter-spacing: 1px;
+}
+
+.working-img{
+    filter: brightness(70%);
 }
 
 
