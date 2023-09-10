@@ -3,40 +3,36 @@
     About Us
 @endsection
 @section('content')
-
-    <div class="col-md-6 ms-5 mt-5">
-        <h1 class="lh-md">
-            Everything you need to know about digital currency trading investment
+    <div class="col-md-8 mx-auto my-5">
+        <h1 class="lh-md text-center fw-bold">
+           About Us
         </h1>
-        <div class="col-8 my-5">
-            <p class="text-light lead">
-            Our digital agency helps clients develop, and implement successful digital currency investment.
-            Also work with you to build your business grow
-            </p>
-        </div>
-    </div>
-        <div class="row px-3">
-            <div class="col-md-4 col-12">
-                <img src="{{url('images/capitalinvestmentpro_picture_1.jpg')}}" class="img-thumbnail mb-3"  alt="capitialinvestmentpro_picture">
+            <div class="col-md-8 mx-auto">
+                <p class="text-light lead text-center fw-lighter">
+                    Capital Investment Pro, a partner of Asia’s top financial group, is currently one of the few overseas financial operating companies. From 2019 to 2020, it won unanimous praise in the industry and a number of technical patents, and completed the top ten outstanding performance indicators in Asia
+                </p>
             </div>
-            <div class="col-md-4 justify-content-center col-12">
-                <img src="{{url('images/capitalinvestmentpro_picture_2.jpg')}}" height="700px" class="img-thumbnail mb-3"  alt="capitalinvestmentpro_picture_2">
-                <div class="row mt-4 text-secondary">
-                    <h3>
-                        What we believe in
-                        Over the years at CaptialInvestmentPro, we've put a lot of thought into what is it what makes us who we are.
-                    </h3>
-                    <div class="d-flex mb-4">
-                        <a href="{{route('contact')}}" class="button text-decoration-none">
-                            Contact Us
-                        </a>
-                    </div>
 
-                </div>
+
+    </div>
+    <div class="container">
+
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 my-5">
+               <h3 class="text-light text-center">Our Mission</h3>
+                <p class="text-light lead text-center">Bringing Blockchain Technology to use & work for various Industry Domains and the General Public. We do this by engaging in Customer projects as a service provider and also by building our own products within a startup context.</p>
             </div>
+            <div class="col-md-7">
+                <img src="{{url('images/bitcoin-cryptocurrency.gif')}}" alt="blockchain">
+            </div>
+
+
+
             <div class="col-md-4 col-12">
-                <img src="{{url('images/p3.jpg')}}" height="860px"  class="img-thumbnail mb-3" alt="capitialinvestmentpro_picture">
+
             </div>
+        </div>
 
         </div>
 

@@ -19,8 +19,6 @@
             <h2  class="mb-3">Trusted WorldWide</h2>
             <p class="lead">Discover why millions of investors from over
                 the countries joined <span class="my-underline">Capitalinvestmentpro</span></p>
-
-
         </div>
 
 
@@ -143,24 +141,21 @@
                 <p class="text-center">Conference Room</p>
             </div>
         </div>
-
     </section>
-
 <hr class="text-secondary">
 <section class="container text-white">
-    <h4 class="text-center fw-bold my-4 lead">Company Accommodation For Employee</h4>
+    <h4 class="text-center fw-bold my-4 lead">Accommodation provided by company  for employee</h4>
     <div class="row">
         <div class="col-md-4 mb-3">
             <div class="card">
-
-
-            <img src="{{url('/images/bedroom.jpg')}}" class="card-img working-img">
+                <img src="{{url('/images/bedroom.jpg')}}" class="card-img working-img">
             <div class="card-img-overlay">
                 <div class="d-flex  align-items-end justify-content-end " style="height: 100%">
                     <p class="card-text text-light lead">Employee Rooms</p>
                 </div>
 
             </div>
+
             </div>
         </div>
         <div class="col-md-4 mb-3">
@@ -180,7 +175,7 @@
                 <img src="{{url('/images/manager_room.jpg')}}" class="card-img">
                 <div class="card-img-overlay">
                     <div class="d-flex  align-items-end" style="height: 100%">
-                        <p class="card-text text-light lead fw-bold">Managerial Room</p>
+                        <p class="card-text text-light lead">Managerial Room</p>
                     </div>
                 </div>
             </div>
@@ -189,12 +184,7 @@
     </div>
 
 </section>
-<hr class="text-secondary">
-    <section>
-        <div class="col-md-8 mx-auto">
 
-        </div>
-    </section>
 
 @endsection
 
