@@ -851,9 +851,10 @@
         <div class="col-md-3">
             <div class="cardContainer">
                 <div class="my-card">
-                    <span><i class="fa-solid fa-location-dot"></i></span>
-                    <h3 class="city">Location</h3>
-                    <p class="weather">95 Tak Ok</p>
+                    <span><i class="fa-solid fa-building text-light fs-3 mt-5 p-2"></i></span>
+                    <h3 class="city">Visit Between</h3>
+                    <p class="weather">Mon - Sat : 8.00-5.00</p>
+                    <p class="weather">Sunday is closed</p>
                     <svg xml:space="preserve" viewBox="0 0 100 100" height="50px" width="50px" y="0px" x="0px" id="Layer_1" version="1.1" class="weather">
                 </svg>
                 </div>
