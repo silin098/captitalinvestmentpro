@@ -354,5 +354,587 @@ button::after {
 }
 
 
+/*location card*/
+.location-card{
+    box-sizing: border-box;
+    width: 190px;
+    height: 254px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.location-card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.location-card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+/*contact page section*/
+
+#contact {
+    width: 100%;
+    height: 100%;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 1080px;
+}
+
+/* Left contact page */
+.form-horizontal {
+    /*float: left;*/
+    max-width: 600px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.form-control,
+textarea {
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+    max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+    color: #000;
+}
+
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255,255,255,.6);
+}
+
+
+/* my custom card*/
+.cardContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-card {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(65, 65, 65, 0.308);
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+}
+
+.city {
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.weather {
+    font-weight: 500;
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+    color: rgb(197, 197, 197);
+}
+
+.temp {
+    font-size: 1.8em;
+    color: white;
+}
+
+.minmaxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.min,.max {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 4px;
+}
+
+.max {
+    align-items: flex-start;
+    border-left: 2px solid white;
+}
+
+.maxHeading,.minHeading {
+    font-size: 0.7em;
+    font-weight: 600;
+    color: white;
+}
+
+.
+
+.cardContainer::before {
+    width: 100px;
+    height: 100px;
+    content: "";
+    position: absolute;
+    background-color: rgb(144, 161, 255);
+    z-index: -1;
+    border-radius: 50%;
+    left: 100px;
+    top: 50px;
+    transition: all 1s;
+}
+
+.cardContainer:hover::before {
+    transform: translate(-50px ,50px);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+        margin: 0 auto;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+    .social-media-list li {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .social-media-list li:after {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+
+    .direct-contact-container, .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+    .form-control, textarea {
+
+        margin: 0 auto;
+    }
+
+
+    .name, .email, textarea {
+        width: 280px;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+    .social-media-list {
+        left: 0;
+    }
+    .social-media-list li {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 2rem;
+    }
+    .social-media-list li:after {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 99%;
+    }
+}
+/* bitcoin section*/
+
+.holder
+{width:100%; position:relative; margin:auto}
+.sparkle-holder {
+    background: white;
+    position: absolute;
+    -webkit-clip-path: polygon(50% 3%, 65% 35%, 100% 50%, 65% 65%, 50% 99%, 35% 65%, 1% 50%, 35% 35%);
+    clip-path: polygon(50% 3%, 65% 35%, 100% 50%, 65% 65%, 50% 99%, 35% 65%, 1% 50%, 35% 35%);
+}
+
+.sparkle-holder1 {
+    width: 100px;
+    height: 100px;
+    top: 121px;
+    left: 50%;
+    margin-left: -77px;
+    animation: sparkle 2s ease-in-out infinite;
+}
+
+.sparkle-holder2 {
+    width: 50px;
+    height: 50px;
+    top: 58%;
+    left: 50%;
+    margin-left: 14%;
+    animation: sparkle 4s ease-in-out infinite;
+}
+
+.sparkle-holder3 {
+    width: 30px;
+    height: 30px;
+    top: 70%;
+    left: 50%;
+    margin-left: -32%;
+    animation: sparkle 5s ease-in-out infinite;
+}
+
+.sparkle-holder4 {
+    width: 80px;
+    height: 80px;
+    top: 34%;
+    left: 50%;
+    margin-left: -30%;
+    animation: sparkle 4s ease-in-out infinite;
+}
+.sparkle-holder5 {
+    width: 60px;
+    height: 60px;
+    top: 41%;
+    left: 50%;
+    margin-left: 0%;
+    animation: sparkle 3s ease-in-out infinite;
+}
+.sparkle-holder6 {
+    width: 80px;
+    height: 80px;
+    top: 33%;
+    left: 50%;
+    margin-left: 22%;
+    animation: sparkle 2.5s ease-in-out infinite;
+}
+.sparkle-holder7 {
+    width: 100px;
+    height: 100px;
+    top: 24%;
+    left: 50%;
+    margin-left: -12%;
+    animation: sparkle 3.5s ease-in-out infinite;
+}
+
+@keyframes sparkle{
+    0%{
+        transform: scale(0.5);
+
+    }
+    50%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+
+
+.sparkle-holder1 {
+    width: 40px;
+    height: 40px;
+    top: 70%;
+    left: 50%;
+    margin-left: -17%;
+}
+/*/cowardly-squid-50*/
+
+.svg-frame {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-frame svg {
+    position: absolute;
+    transition: .5s;
+    z-index: calc(1 - (0.2 * var(--j)));
+    transform-origin: center;
+    width: 344px;
+    height: 344px;
+    fill: none;
+}
+
+.svg-frame:hover svg {
+    transform: rotate(-80deg) skew(30deg) translateX(calc(45px * var(--i))) translateY(calc(-35px * var(--i)));
+}
+
+.svg-frame svg #center {
+    transition: .5s;
+    transform-origin: center;
+}
+
+.svg-frame:hover svg #center {
+    transform: rotate(-30deg) translateX(45px) translateY(-3px);
+}
+
+#out2 {
+    animation: rotate16 7s ease-in-out infinite alternate;
+    transform-origin: center;
+}
+
+#out3 {
+    animation: rotate16 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    stroke: #ff0;
+}
+
+#inner3,
+#inner1 {
+    animation: rotate16 4s ease-in-out infinite alternate;
+    transform-origin: center;
+}
+
+#center1 {
+    fill: #ff0;
+    animation: rotate16 2s ease-in-out infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes rotate16 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+/*footer css*/
+
+footer {
+    /*background-color:;*/
+    color: #fff;
+    padding: 30px 0;
+
+}
+
+.footer-container {
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffcc00;
+}
+
+.footer-contact h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+
+    padding: 10px 0;
+    font-size: 0.8rem;
+}
+
+
 
 
