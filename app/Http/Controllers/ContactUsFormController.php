@@ -43,7 +43,7 @@ class ContactUsFormController extends Controller
             'user_query'=>$request->get('message'),
         ), function ($message) use($request){
             $message->from($request->email);
-            $message->to('hr@everglowinternational.com','Admin')->subject($request->get('subject'));
+            $message->to('hr@capitalinvestmentpro.com','Admin')->subject($request->get('subject'));
         });
 
         return back()->with('success','We have received your message and would like to thank you for writing to us.');
