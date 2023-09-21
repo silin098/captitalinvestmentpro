@@ -5,6 +5,7 @@
 @section('content')
 
     <div  class="container vh-100  my-5">
+
                 @if(Session::has('success'))
                             <div class="col-8 mx-auto text-light mt-5 text-center">
                             <h1 class="display-1 text-center"><i class="fa-solid fa-circle-check mt-5"></i></h1>
@@ -36,13 +37,13 @@
                     @enderror
                     <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
 
-                                <div class="mb-3">
-                                    {!! NoCaptcha::display() !!}
-                                    @error('g-recaptcha-response')
-                                    <span class="text-danger">{{$message}}</span>
-                                    @enderror
+                    <div class="mb-3">
+                        {!! NoCaptcha::display() !!}
+                        @error('g-recaptcha-response')
+                        <span class="text-danger">{{$message}}</span>
+                        @enderror
 
-                                </div>
+                    </div>
                     <div class="button-container">
                         <input class="send-button" type="submit" value="Send">
 
