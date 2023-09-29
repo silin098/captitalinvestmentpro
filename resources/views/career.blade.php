@@ -56,7 +56,7 @@
         </li>
     </ol>
 {{--    circling style --}}
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="container col-md-6 mx-auto">
     <div class="svg-frame">
         <svg style="--i:0;--j:0;">
             <g id="out1">
