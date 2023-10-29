@@ -35,3 +35,4 @@ Route::get('business-development',[WebController::class,'developBusiness'])->nam
 Route::get('/contact',[ContactUsFormController::class,'createForm'])->name('contact');
 Route::post('/contact',[ContactUsFormController::class,'storeForm'])->name('contact.store');
 Route::get('/success',[ContactUsFormController::class,'successForm'])->name('contact.success');
+

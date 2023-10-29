@@ -4,10 +4,10 @@
 @endsection
 @section('content')
 
-    <div  class="container vh-100  my-5">
+    <div  class="container  my-5">
 
                 @if(Session::has('success'))
-                            <div class="col-8 mx-auto text-light mt-5 text-center">
+                            <div class="col-8 mx-auto text-light mt-5 text-center vh-100">
                             <h1 class="display-1 text-center"><i class="fa-solid fa-circle-check mt-5"></i></h1>
                             <h1 class="display-1">Thank you! </h1>
                             <p class="text-light">{{Session::get('success')}}</p>
