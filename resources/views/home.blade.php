@@ -6,7 +6,7 @@
 <main class="container">
     <div class="row">
     <div class="col-lg-7 mb-5">
-        <h1 class="text-white mt-5  pt-5 display-5 fw-bold">
+        <h1 class="text-white mt-5  pt-5 display-5 fw-bold banner-custom-font">
             Unlock the Potential of Cryptocurrency
             Investment in Digital Assets and Secure Your Financial Future!
         </h1>
