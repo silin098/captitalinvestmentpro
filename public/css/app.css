@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
 
-    background:#111928;
-    background-size: cover;
-    background-attachment: fixed;
+    background:#000000;
     font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 h1 {
@@ -25,9 +23,14 @@ h1 {
     background: linear-gradient(90deg, #12C2E9 34%, #C471ED 73%, #f64f59 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 
