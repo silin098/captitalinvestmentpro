@@ -16,7 +16,7 @@
 
         <div class="col-md-3 text-end me-3">
             <a class="contact" href="{{route('contact')}}">
-                Contact Us
+                Contact
             </a>
 
         </div>

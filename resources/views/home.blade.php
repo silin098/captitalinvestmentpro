@@ -769,47 +769,48 @@
         </div>
     </section>
 <hr class="text-secondary">
-<section class="container text-white">
-    <h4 class="text-center fw-bold my-4 lead">Accommodation provided by company  for employee</h4>
-    <div class="row">
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="{{url('/images/bedroom.jpg')}}" class="card-img working-img">
-            <div class="card-img-overlay">
-                <div class="d-flex  align-items-end justify-content-end " style="height: 100%">
-                    <p class="card-text text-light lead">Employee Rooms</p>
-                </div>
+{{--  Company Accommodation--}}
+{{--<section class="container text-white">--}}
+{{--    <h4 class="text-center fw-bold my-4 lead">Accommodation provided by company  for employee</h4>--}}
+{{--    <div class="row">--}}
+{{--        <div class="col-md-4 mb-3">--}}
+{{--            <div class="card">--}}
+{{--                <img src="{{url('/images/bedroom.jpg')}}" class="card-img working-img">--}}
+{{--            <div class="card-img-overlay">--}}
+{{--                <div class="d-flex  align-items-end justify-content-end " style="height: 100%">--}}
+{{--                    <p class="card-text text-light lead">Employee Rooms</p>--}}
+{{--                </div>--}}
 
-            </div>
+{{--            </div>--}}
 
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="{{url('/images/bed1.jpg')}}" class="card-img">
-            <div class="card-img-overlay">
-                <div class="d-flex  align-items-end justify-content-end" style="height: 100%">
-                    <p class="card-text text-light lead">VIP Rooms</p>
-                </div>
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="col-md-4 mb-3">--}}
+{{--            <div class="card">--}}
+{{--                <img src="{{url('/images/bed1.jpg')}}" class="card-img">--}}
+{{--            <div class="card-img-overlay">--}}
+{{--                <div class="d-flex  align-items-end justify-content-end" style="height: 100%">--}}
+{{--                    <p class="card-text text-light lead">VIP Rooms</p>--}}
+{{--                </div>--}}
 
 
-            </div>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="{{url('/images/manager_room.jpg')}}" class="card-img">
-                <div class="card-img-overlay">
-                    <div class="d-flex  align-items-end" style="height: 100%">
-                        <p class="card-text text-light lead">Managerial Room</p>
-                    </div>
-                </div>
-            </div>
+{{--            </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="col-md-4 mb-3">--}}
+{{--            <div class="card">--}}
+{{--                <img src="{{url('/images/manager_room.jpg')}}" class="card-img">--}}
+{{--                <div class="card-img-overlay">--}}
+{{--                    <div class="d-flex  align-items-end" style="height: 100%">--}}
+{{--                        <p class="card-text text-light lead">Managerial Room</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-        </div>
-    </div>
+{{--        </div>--}}
+{{--    </div>--}}
 
-</section>
+{{--</section>--}}
 
     <div class="container">
     <div class="row mt-5">
