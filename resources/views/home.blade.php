@@ -639,6 +639,7 @@
                 </div>
             </div>
        </div>
+{{--        bitcon end --}}
 
 {{--        Trusted world section--}}
         <div class="text-center">
@@ -647,12 +648,10 @@
                 the countries joined <u class="underline">Capitalinvestmentpro</u></p>
         </div>
 
-
-
     </div>
     <div class="row my-5">
         <div class="col-md-3 text-center">
-            <i class="fa-solid fa-thumbs-up fa-6x"></i>
+            <i class="fa-solid fa-thumbs-up fa-6x fw-bold"></i>
             <div class="my-4">
                 <h5 class="card-title mb-2 fs-4">Trusted</h5>
                 <p class="card-text lead">More than 10+ million
@@ -703,7 +702,7 @@
     <h2 class="text-center">How do we work?</h2>
     <p class="col-md-8  text-center lead mx-auto mb-5">We strive to create extraordinary experience, increase brand awareness, expand target audience reach and optimize overall business results</p>
     </div>
-    <div class="row justify-content-center">
+    <div class="row">
         <div class="col-md-4 d-flex justify-content-center">
             <div class="custom-card">
                 <div class="content">
@@ -750,78 +749,81 @@
     </div>
 
 </section>
-
+{{--working environment section--}}
     <section>
-        <h4 class="text-center  my-5">Working Environment At Capital Investment Pro</h4>
+        <h4 class="text-center my-5">Working Environment At Capital Investment Pro</h4>
         <div class="row">
-            <div class="col-md-4">
-                <img src="{{url('/images/office_photo.jpg')}}" class="img-thumbnail working-img">
+            <div class="col-md-4 mb-5">
+                <img src="{{url('/images/office_photo.jpg')}}" class="custom-home-image">
                 <p class="text-center">Working Office</p>
             </div>
-            <div class="col-md-4">
-                <img src="{{url('/images/rest.jpg')}}" class="img-thumbnail">
+            <div class="col-md-4 mb-5">
+                <img src="{{url('/images/rest.jpg')}}" class="custom-home-image">
                 <p class="text-center">Rest Room </p>
             </div>
-            <div class="col-md-4">
-                <img src="{{url('/images/conference.jpg')}}" class="img-thumbnail">
+            <div class="col-md-4 mb-5">
+                <img src="{{url('/images/conference.jpg')}}" class="custom-home-image">
                 <p class="text-center">Conference Room</p>
             </div>
         </div>
     </section>
-
-
-
+{{--    address section--}}
     <section>
-    <div class="row mt-5">
-        <div class="col-md-3 mb-3">
-            <div class="cardContainer">
-                <div class="my-card">
-                    <span><i class="fa-solid fa-location-dot fs-3 mt-5"></i></span>
-                    <h3 class="city">Location</h3>
-                    <p class="weather">95 Tak Ok, Ban Tak District,</p>
-                    <p class="weather"> Tak, Thailand</p>
-                    <svg xml:space="preserve" viewBox="0 0 100 100" height="50px" width="50px" y="0px" x="0px" id="Layer_1" version="1.1" class="weather">
-                </svg>
+    <div class="row my-5">
+        <div class="col-md-6">
+            <div class="mb-3 border">
+                    <div class="p-3 d-flex">
+
+
+                            <span><i class="fa-solid fa-location-dot fs-3"></i></span>
+
+                        <div class="mx-2">
+                            <h5>Location</h5>
+                            <p >95 Tak Ok, Ban Tak District,</p>
+                            <p> Tak, Thailand</p>
+                        </div>
+
+
+                    </div>
+
+            </div>
+            <div class="mb-3 border">
+                <div class="p-3 d-flex">
+                    <span><i class="fa-solid fa-phone fs-3 text-center"></i></span>
+                    <div class="mx-2">
+                        <h5>Contact</h5>
+                        <p class="weather">+66 612790081</p>
+                    </div>
+
+
                 </div>
             </div>
-        </div>
-        <div class="col-md-3 mb-3">
-            <div class="cardContainer">
-                <div class="my-card">
-                    <span><i class="fa-solid fa-phone  mt-5 fs-3"></i></span>
-                    <h3 class="city">Contact</h3>
-                    <p class="weather">+66 612790081</p>
-                    <svg xml:space="preserve" viewBox="0 0 100 100" height="50px" width="50px" y="0px" x="0px" id="Layer_1" version="1.1" class="weather">
-                </svg>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 mb-3">
-            <div class="cardContainer">
-                <div class="my-card">
-                    <span><i class="fa-solid fa-envelope  mt-5 fs-3"></i> </span>
-                    <h3 class="city">Email</h3>
-                    <p class="weather">info@capitalinvestmentpro.com
+
+
+            <div class="mb-3 border ">
+                <div class="p-3 d-flex">
+                    <span><i class="fa-solid fa-envelope  fs-3"></i> </span>
+                    <div class="mx-2">
+                        <h5>Email</h5>
+                        <p class="weather">info@capitalinvestmentpro.com
+                    </div>
+
                     </p>
-                    <svg xml:space="preserve" viewBox="0 0 100 100" height="50px" width="50px" y="0px" x="0px" id="Layer_1" version="1.1" class="weather">
-                </svg>
+
                 </div>
             </div>
+
+
         </div>
-        <div class="col-md-3">
-            <div class="cardContainer">
-                <div class="my-card">
-                    <span><i class="fa-solid fa-building fs-3 mt-5"></i></span>
-                    <h3 class="city">Visit Between</h3>
-                    <p class="weather">Mon - Sat : 8.00-5.00</p>
-                    <p class="weather">Sunday is closed</p>
-                    <svg xml:space="preserve" viewBox="0 0 100 100" height="50px" width="50px" y="0px" x="0px" id="Layer_1" version="1.1" class="weather">
-                </svg>
-                </div>
-            </div>
+        <div class="col-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75883.9692463794!2d99.03160805865029!3d17.069552430837483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ddd4a4585cdb63%3A0x40346c5fa8bd060!2sTak%20Ok%2C%20Ban%20Tak%20District%2C%20Tak%2063120%2C%20Thailand!5e1!3m2!1sen!2smm!4v1698951543801!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
+
     </div>
+
     </section>
+
 </main>
 @endsection
 

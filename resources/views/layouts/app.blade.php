@@ -28,8 +28,8 @@
 
     <div class="container">
         @yield('content')
-        @include('includes.footer')
     </div>
+        @include('includes.footer')
 
 
     {!! NoCaptcha::renderJs() !!}

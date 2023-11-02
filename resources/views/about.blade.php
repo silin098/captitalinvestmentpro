@@ -9,7 +9,7 @@
            About Us
         </h1>
             <div class="col-md-10 mx-auto">
-                <p class="text-light  text-center fw-lighter">
+                <p class="text-center fw-lighter">
                     As an affiliate of Asia's leading financial conglomerate, Capital Investment Pro distinguishes itself as one of the select few overseas financial operating firms.
                 </p>
             </div>
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 d-flex justify-content-md-end justify-content-center mb-5">
-                <img src="{{url('images/about-us.jpg')}}" alt="blockchain" class="my-custom-image">
+                <img src="{{url('images/about-us.jpg')}}" alt="blockchain" class="my-custom-about-image">
             </div>
             <div class="col-md-6 text-light">
 
