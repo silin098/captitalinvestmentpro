@@ -1,27 +1,29 @@
-<div class="container-fluid border-bottom border-secondary">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+<div class="container">
+<nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2">
         <div class="col-md-3 mb-2 mb-md-0">
-            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ms-md-5">
-               <img src="{{url('/images/logo12.png')}}" height="40" />
+            <a href="/" class="navbar-brand">
+               <img src="{{url('/images/logo12.png')}}" height="40" /> <span>CapitalInvestmentPro</span>
             </a>
         </div>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-5">
-            <li><a href="{{route('home')}}" class="nav-link px-2 link-light">Home</a></li>
-            <li><a href="{{route('about')}}" class="nav-link px-2 link-light">About</a></li>
-            <li><a href="{{route('career')}}" class="nav-link px-2 link-light ">Careers</a></li>
-            <li><a href="{{route('crypto-exchange-rate')}}" class="nav-link px-2 link-light ">News</a></li>
+            <li><a href="{{route('home')}}" class="nav-link">Home</a></li>
+            <li><a href="{{route('about')}}" class="nav-link">About</a></li>
+            <li><a href="{{route('career')}}" class="nav-link ">Careers</a></li>
+            <li><a href="{{route('crypto-exchange-rate')}}" class="nav-link ">News</a></li>
 
         </ul>
+        <div class="col-md-3">
+            <a class="fancy" href="{{route('contact')}}">
 
-        <div class="col-md-3 text-end me-3">
-            <a class="contact" href="{{route('contact')}}">
-                Contact
+                <span class="text">Contact US</span>
+
             </a>
 
         </div>
-    </header>
-
+    </nav>
 </div>
+
+
 
 

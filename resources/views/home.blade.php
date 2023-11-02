@@ -6,12 +6,12 @@
 <main class="container">
     <div class="row">
     <div class="col-lg-7 mb-5">
-        <h1 class="text-white mt-5  pt-5 display-5 fw-bold banner-custom-font">
+        <h1 class="mt-5  pt-5 display-6  banner-custom-font">
             Unlock the Potential of Cryptocurrency
             Investment in Digital Assets and Secure Your Financial Future!
         </h1>
-        <div class="my-5">
-            <a href="/contact" class="text-light banner-btn text-decoration-none">Get In Touch</a>
+        <div class="mt-5 justify-content-sm-center">
+            <a href="/contact" class="btn btn-outline-primary">Get In Touch</a>
         </div>
     </div>
         {{--            bitcoin section --}}
@@ -639,21 +639,21 @@
                 </div>
             </div>
        </div>
-        <div class=" text-light text-center para">
+
+{{--        Trusted world section--}}
+        <div class="text-center">
             <h2  class="mb-3">Trusted WorldWide</h2>
             <p class="lead">Discover why millions of investors from over
-                the countries joined <span class="my-underline">Capitalinvestmentpro</span></p>
+                the countries joined <u class="underline">Capitalinvestmentpro</u></p>
         </div>
 
 
 
     </div>
-    </div>
-
     <div class="row my-5">
         <div class="col-md-3 text-center">
-            <i class="fa-solid fa-thumbs-up fa-6x text-white"></i>
-            <div class="my-4 text-white-50">
+            <i class="fa-solid fa-thumbs-up fa-6x"></i>
+            <div class="my-4">
                 <h5 class="card-title mb-2 fs-4">Trusted</h5>
                 <p class="card-text lead">More than 10+ million
                     investors  globally
@@ -664,8 +664,8 @@
         </div>
 
         <div class="col-md-3 text-center">
-            <i class="fa-solid fa-circle-check fa-6x text-white"></i>
-            <div class="my-4 text-white-50">
+            <i class="fa-solid fa-circle-check fa-6x"></i>
+            <div class="my-4">
                 <h5 class="card-title mb-2 fs-4">Reliable</h5>
                 <p class="lead">Regulated by various
                     authorities around
@@ -676,8 +676,8 @@
         </div>
 
         <div class="col-md-3 text-center">
-            <i class="fa-solid fa-lock fa-6x text-white"></i>
-            <div class="my-4 text-white-50 ">
+            <i class="fa-solid fa-lock fa-6x"></i>
+            <div class="my-4">
                 <h5 class="card-title mb-2 fs-4">Secured</h5>
                 <p class="card-text lead">Utilising top-tier security
                     practices</p>
@@ -686,8 +686,8 @@
 
         </div>
         <div class="col-md-3 text-center">
-            <i class="fa-solid fa-globe fa-6x text-white"></i>
-            <div class="my-4 text-white-50 ">
+            <i class="fa-solid fa-globe fa-6x"></i>
+            <div class="my-4">
                 <h5 class="card-title mb-2 fs-4">Global</h5>
                 <p class="card-text lead">Providing services
                     around the world</p>
@@ -695,13 +695,13 @@
 
         </div>
     </div>
-</main>
-<hr class="text-secondary">
 
-<section class="text-light container">
+
+
+<section>
     <div class="my-3">
-    <h2 class="text-center fw-bold">How do we work?</h2>
-    <p class="col-md-8  text-center lead mx-auto">We strive to create extraordinary experience, increase brand awareness, expand target audience reach and optimize overall business results</p>
+    <h2 class="text-center">How do we work?</h2>
+    <p class="col-md-8  text-center lead mx-auto mb-5">We strive to create extraordinary experience, increase brand awareness, expand target audience reach and optimize overall business results</p>
     </div>
     <div class="row justify-content-center">
         <div class="col-md-4 d-flex justify-content-center">
@@ -750,9 +750,9 @@
     </div>
 
 </section>
-<hr class="text-secondary">
-    <section class="container text-white">
-        <h4 class="text-center fw-bold my-3 lead">Working Environment At Capital Investment Pro</h4>
+
+    <section>
+        <h4 class="text-center  my-5">Working Environment At Capital Investment Pro</h4>
         <div class="row">
             <div class="col-md-4">
                 <img src="{{url('/images/office_photo.jpg')}}" class="img-thumbnail working-img">
@@ -768,56 +768,15 @@
             </div>
         </div>
     </section>
-<hr class="text-secondary">
-{{--  Company Accommodation--}}
-{{--<section class="container text-white">--}}
-{{--    <h4 class="text-center fw-bold my-4 lead">Accommodation provided by company  for employee</h4>--}}
-{{--    <div class="row">--}}
-{{--        <div class="col-md-4 mb-3">--}}
-{{--            <div class="card">--}}
-{{--                <img src="{{url('/images/bedroom.jpg')}}" class="card-img working-img">--}}
-{{--            <div class="card-img-overlay">--}}
-{{--                <div class="d-flex  align-items-end justify-content-end " style="height: 100%">--}}
-{{--                    <p class="card-text text-light lead">Employee Rooms</p>--}}
-{{--                </div>--}}
-
-{{--            </div>--}}
-
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="col-md-4 mb-3">--}}
-{{--            <div class="card">--}}
-{{--                <img src="{{url('/images/bed1.jpg')}}" class="card-img">--}}
-{{--            <div class="card-img-overlay">--}}
-{{--                <div class="d-flex  align-items-end justify-content-end" style="height: 100%">--}}
-{{--                    <p class="card-text text-light lead">VIP Rooms</p>--}}
-{{--                </div>--}}
 
 
-{{--            </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="col-md-4 mb-3">--}}
-{{--            <div class="card">--}}
-{{--                <img src="{{url('/images/manager_room.jpg')}}" class="card-img">--}}
-{{--                <div class="card-img-overlay">--}}
-{{--                    <div class="d-flex  align-items-end" style="height: 100%">--}}
-{{--                        <p class="card-text text-light lead">Managerial Room</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
 
-{{--        </div>--}}
-{{--    </div>--}}
-
-{{--</section>--}}
-
-    <div class="container">
+    <section>
     <div class="row mt-5">
         <div class="col-md-3 mb-3">
             <div class="cardContainer">
                 <div class="my-card">
-                    <span><i class="fa-solid fa-location-dot fs-3 text-light mt-5 p-2"></i></span>
+                    <span><i class="fa-solid fa-location-dot fs-3 mt-5"></i></span>
                     <h3 class="city">Location</h3>
                     <p class="weather">95 Tak Ok, Ban Tak District,</p>
                     <p class="weather"> Tak, Thailand</p>
@@ -829,7 +788,7 @@
         <div class="col-md-3 mb-3">
             <div class="cardContainer">
                 <div class="my-card">
-                    <span><i class="fa-solid fa-phone text-light mt-5 fs-3 p-2"></i></span>
+                    <span><i class="fa-solid fa-phone  mt-5 fs-3"></i></span>
                     <h3 class="city">Contact</h3>
                     <p class="weather">+66 612790081</p>
                     <svg xml:space="preserve" viewBox="0 0 100 100" height="50px" width="50px" y="0px" x="0px" id="Layer_1" version="1.1" class="weather">
@@ -840,7 +799,7 @@
         <div class="col-md-3 mb-3">
             <div class="cardContainer">
                 <div class="my-card">
-                    <span><i class="fa-solid fa-envelope text-light mt-5 fs-3 p-2"></i> </span>
+                    <span><i class="fa-solid fa-envelope  mt-5 fs-3"></i> </span>
                     <h3 class="city">Email</h3>
                     <p class="weather">info@capitalinvestmentpro.com
                     </p>
@@ -852,7 +811,7 @@
         <div class="col-md-3">
             <div class="cardContainer">
                 <div class="my-card">
-                    <span><i class="fa-solid fa-building text-light fs-3 mt-5 p-2"></i></span>
+                    <span><i class="fa-solid fa-building fs-3 mt-5"></i></span>
                     <h3 class="city">Visit Between</h3>
                     <p class="weather">Mon - Sat : 8.00-5.00</p>
                     <p class="weather">Sunday is closed</p>
@@ -862,8 +821,8 @@
             </div>
         </div>
     </div>
-    </div>
-
+    </section>
+</main>
 @endsection
 
 
