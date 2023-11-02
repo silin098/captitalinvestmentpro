@@ -800,12 +800,12 @@
             </div>
 
 
-            <div class="mb-3 border ">
-                <div class="p-3 d-flex">
+            <div class="mb-3 border">
+                <div class="ms-2 my-2 d-flex">
                     <span><i class="fa-solid fa-envelope  fs-3"></i> </span>
-                    <div class="mx-2">
+                    <div class="ms-2">
                         <h5>Email</h5>
-                        <p class="weather">info@capitalinvestmentpro.com
+                        <p>info@capitalinvestmentpro.com
                     </div>
 
                     </p>
@@ -815,8 +815,8 @@
 
 
         </div>
-        <div class="col-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75883.9692463794!2d99.03160805865029!3d17.069552430837483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ddd4a4585cdb63%3A0x40346c5fa8bd060!2sTak%20Ok%2C%20Ban%20Tak%20District%2C%20Tak%2063120%2C%20Thailand!5e1!3m2!1sen!2smm!4v1698951543801!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75883.9692463794!2d99.03160805865029!3d17.069552430837483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ddd4a4585cdb63%3A0x40346c5fa8bd060!2sTak%20Ok%2C%20Ban%20Tak%20District%2C%20Tak%2063120%2C%20Thailand!5e1!3m2!1sen!2smm!4v1698951543801!5m2!1sen!2smm"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-frame"></iframe>
 
         </div>
 

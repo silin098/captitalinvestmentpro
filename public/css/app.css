@@ -67,7 +67,8 @@ p {
 }
 
 footer {
-    background-color:#F8F9FA;
+
+    /*background-color:#F8F9FA;*/
 }
 
 /* Contact Us Custom Button*/
@@ -324,28 +325,21 @@ footer {
 }
 /*  custom form */
 .orange {
-    color: #D9B0FF;
+    color: #868488;
 }
 
 .form-container {
     width: 100%;
-
-    background-color: #222733;
-    padding: 10px;
-    border-left: 5px solid #D9B0FF;
+    margin:1rem 0;
+    background-color: #ebedf1;
+    padding: 20px;
+    border-left: 5px solid #757277;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
 }
 
-.heading {
-    display: block;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
 
 .form-container .form .input {
-    color: #D9B0FF;
+    color: #f4f5f6;
     width: 100%;
     background-color: #2f313a;
     border: none;
@@ -358,7 +352,7 @@ footer {
 }
 
 .form-container .form .input:focus {
-    border-left: 5px solid #D9B0FF;
+    border-left: 5px solid #565557;
 }
 
 .form-container .form .textarea {
@@ -367,7 +361,7 @@ footer {
     border: none;
     outline: none;
     background-color: #2f313a;
-    color: #D9B0FF;
+    color: #ffffff;
     font-weight: bold;
     resize: none;
     max-height: 100%;
@@ -377,7 +371,7 @@ footer {
 }
 
 .form-container .form .textarea:focus {
-    border-left: 5px solid #D9B0FF;
+    border-left: 5px solid #585759;
 }
 
 .form-container .form .button-container {
@@ -387,7 +381,7 @@ footer {
 
 .form-container .form .button-container .send-button {
     flex-basis: 70%;
-    background: #D9B0FF;
+    background: #e7e4ea;
     padding: 10px;
     color: #001925;
     text-align: center;
@@ -399,12 +393,12 @@ footer {
 .form-container .form .button-container .send-button:hover {
     cursor: pointer;
     background: transparent;
-    border: 1px solid #D9B0FF;
-    color: #D9B0FF;
+    border: 1px solid #3e3d3f;
+    color: #0b0e25;
 }
 
 .form-container .form .button-container .reset-button-container {
-    filter: drop-shadow(1px 1px 0px #D9B0FF);
+    filter: drop-shadow(1px 1px 0px #000000);
     flex-basis: 30%;
 }
 
@@ -412,16 +406,16 @@ footer {
     position: relative;
     text-align: center;
     padding: 10px;
-    color: #D9B0FF;
+    color: #0b0e25;
     font-weight: bold;
-    background: #001925;
+    background: #0b0e25;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
     transition: all 0.2s ease-in-out;
 }
 
 .form-container .form .button-container .reset-button-container .reset-button:hover {
-    background: #D9B0FF;
-    color: #001925;
+    background: #8b8b8d;
+    color: #0b0e25;
 }
 
 /* bitcoin sparkle  section*/
@@ -597,11 +591,7 @@ footer {
 
 .card-for-about{
     width: 100%;
-    /*height: 254px;*/
 
-    background: #18212d;
-    box-shadow: 15px 15px 30px rgb(124, 121, 121),
-    -15px -15px 30px rgb(17, 25, 40);
 }
 
 .custom-home-image {
@@ -609,6 +599,10 @@ footer {
     height: 100%;
 }
 
+.map-frame {
+    width: 100%;
+    height: 100%;
+}
 
 
 

@@ -4,17 +4,17 @@
 @endsection
 @section('content')
 
-<div class="col-md-6 mx-auto mt-5 text-light vh-100">
+<div class="col-md-7 mx-auto mt-5 vh-100">
     <h2 class="text-center">We're On The Lookout
         For Extraordinary Talent</h2>
-    <p class="lead mt-3 text-center">
+    <p class="mt-3 text-center">
         If you're motivated, intelligent, passionate and looking for a meaningful work environment, captialinvestmentpro may just be the last place you send your resume to
     </p>
     <h3 class="text-center my-3 text-decoration-underline">Open  Vacancies</h3>
-    <ol class="list-group px-3">
+    <ol class="list-group px-3 mt-5">
         <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class=" me-auto py-2">
-                <div class="fw-bold">Customer Screening Specialist</div>
+            <div class="me-auto py-2">
+                <div class="fw-bold">Customer Screening Representative</div>
             </div>
             <a class="btn btn-dark align-self-center" href="{{route('customer-screening-specialist')}}">Apply</a>
         </li>
@@ -58,7 +58,5 @@
 
 
 </div>
-
-
 
 @endsection

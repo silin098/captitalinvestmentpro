@@ -1,5 +1,5 @@
-<footer>
-    <div class="container">
+
+    <footer class="container">
     <div class="d-flex flex-wrap justify-content-between align-items-center my-5">
     <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 mb-md-0 text-body-secondary text-decoration-none lh-1 pe-2">
@@ -20,6 +20,6 @@
         <a  class="ms-2" href="https://wa.me/+66612790081" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-primary"></i></a>
     </div>
 </div>
-    </div>
-</footer>
+    </footer>
+
 

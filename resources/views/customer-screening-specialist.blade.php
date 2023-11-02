@@ -4,8 +4,8 @@
 @endsection
 @section('content')
 
-   <div class="col-md-7 mx-auto text-light my-5 px-3">
-       <h3 class="my-3">Customer Screening Specialist Position</h3>
+   <div class="col-md-10 mx-auto my-5 px-3">
+       <h3 class="my-3">Customer Screening Representative Position</h3>
 
 
        <h5>Department: Administrative</h5>
@@ -81,7 +81,7 @@
            <li>+66 612790081</li>
            <li>hr@capitalinvestmentpro.com</li>
        </ul>
-       <p class="fw-bold" >If you are interested in this position, send your resume to: <a href="mailto:email@example.com" class="text-white">hr@capitalinvestmentpro.com</a></p>
+       <p class="fw-bold" >If you are interested in this position, send your resume to: <a href="mailto:email@example.com" class="text-primary">hr@capitalinvestmentpro.com</a></p>
 
    </div>
 @endsection

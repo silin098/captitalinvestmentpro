@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 
-    <div  class="container  my-5">
+    <div class="vh-100">
 
                 @if(Session::has('success'))
                             <div class="col-8 mx-auto text-light mt-5 text-center vh-100">
@@ -14,11 +14,15 @@
                             <a href="/" class="btn btn-light">Back To Home</a>
                             </div>
                 @else
-            <div class="col-md-7 text-light mx-auto">
-            <div class="form-container">
+
+
+                    <div class="row mt-5">
+
+
+                <div class="col-md-6">
+                <div class="form-container">
                 <form class="form" method="POST" action="{{route('contact.store')}}">
                     @csrf
-                    <span class="heading">Get in touch</span>
                     @error('name')
                     <span class="text-danger">{{$message}}</span>
                     @enderror
@@ -30,12 +34,12 @@
                     @error('phone')
                     <span class="text-danger">{{$message}}</span>
                     @enderror
-                    <input placeholder="Phone Number" id="phone" type="number" class="input" name="phone">
+
                     <input placeholder="Subject"  type="text" class="input" name="subject">
                     @error('message')
                     <span class="text-danger">{{$message}}</span>
                     @enderror
-                    <textarea placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+                    <textarea placeholder="What can we help you with?" rows="5" cols="30" id="message" name="message" class="textarea"></textarea>
 
                     <div class="mb-3">
                         {!! NoCaptcha::display() !!}
@@ -49,10 +53,20 @@
 
                     </div>
                 </form>
+                </div>
             </div>
-            </div>
+
+                <div class="col-md-6">
+                    <div class="mt-5 pt-5">
+                        <div class="display-6">Get In Touch</div>
+                        <p>For general inquiries or information about our company, use the contact form .
+                        </p>
+                    </div>
+                </div>
+
+
         @endif
+
+
     </div>
-
-
 @endsection
