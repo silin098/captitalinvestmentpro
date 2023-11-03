@@ -22,7 +22,7 @@
 {{--</div>--}}
 {{--    </footer>--}}
 
-<footer class="bg-light  py-4">
+<footer class="border-top py-4">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
